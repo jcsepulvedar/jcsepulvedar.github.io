@@ -3,7 +3,7 @@ var ghpages = require('gh-pages');
 ghpages.publish(
     'public', // path to public directory
     {
-        branch: 'master',
+        branch: 'mastear',
         repo: 'https://github.com/jcsepulvedar/jcsepulvedar.github.io.git', // Update to point to your repository  
         user: {
             name: 'Juan Sepulveda', // update to use your name
