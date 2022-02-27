@@ -1,9 +1,8 @@
 @import './variables';
 @import './media-queries';
 .container {
-    background: repeating-linear-gradient(to left, $color1, $color2, $color3);
+    background: repeating-linear-gradient(to right, $color1, $color2);
     padding: 1% 15% 0% 15%;
-    color: $text-color1;
     font-weight: bold;
     // @include tablet() {
     //     padding: $space-4 $space-4;

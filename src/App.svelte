@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Juan Camilo Seúlveda</title>
+	<title>Juan Seúlveda</title>
 	<meta name="robots" content="noindex nofollow" />
 	<html lang="en" />
 </svelte:head>
@@ -25,5 +25,6 @@
 
 :global(body) {
     padding: 0;
+    cursor: default;
 }
 </style>
