@@ -19,6 +19,9 @@
   },
   "dependencies": {
     "gh-pages": "^3.2.3",
-    "sirv-cli": "^2.0.0"
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.9",
+    "sirv-cli": "^2.0.0",
+    "svelte-preprocess": "^4.10.4"
   }
 }

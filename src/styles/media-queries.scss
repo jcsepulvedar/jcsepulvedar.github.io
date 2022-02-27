@@ -1,0 +1,33 @@
+// Desktop: 1025px and above (DESKTOP ONLY)
+@mixin desktop {
+    @media (min-width: 1440px) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media (max-width: 1439px) {
+        @content;
+    }
+}
+
+// Tablet: 1024px and below
+@mixin tablet {
+    @media (max-width: 1023px) {
+        @content;
+    }
+}
+
+// Mobile: 767px and below
+@mixin mobile {
+    @media (max-width: 767px) {
+        @content;
+    }
+}
+
+// Mobile: 424px and below
+@mixin mobile-small {
+    @media (max-width: 424px) {
+        @content;
+    }
+}
