@@ -32,17 +32,17 @@
             gap: 40px;
             grid-template-columns: repeat(3, auto);
 
-            animation: slidein 1s;
-            animation-timing-function: linear;
-            @keyframes slidein {
-                from {
-                    margin-right: 20%;
-                }
+            // animation: slidein 1s;
+            // animation-timing-function: linear;
+            // @keyframes slidein {
+            //     from {
+            //         margin-right: 20%;
+            //     }
 
-                to {
-                    margin-right: 0%;
-                }
-            }
+            //     to {
+            //         margin-right: 0%;
+            //     }
+            // }
         };
         &--link {
                 backdrop-filter: blur(5px);
